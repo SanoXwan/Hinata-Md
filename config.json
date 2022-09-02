@@ -1,13 +1,13 @@
 {
-    "ownerNumber": "6281575886399@s.whatsapp.net",
-    "ownerName": "Riy 04",
-    "botName": "Hinata-Md",
-    "footer": "Xcode Team",
+    "ownerNumber": "6282239202895@s.whatsapp.net",
+    "ownerName": "Sano San",
+    "botName": "Sano-Md",
+    "footer": "© By Sano san",
     "sessionName": "session",
     "pathimg": "./media/hinata.jpg",
-    "lolkey": "Beli Sendiri",
-    "youtube": "https://youtube.com/c/Riy04",
-    "instagram": "https://instagram.com/riychdwayne",
+    "lolkey": "04d8c4b18b91e43ff15f7999",
+    "youtube": "https://youtube.com/c/Sano",
+    "instagram": "https://instagram.com/kimhcibotz",
     "gamewaktu": 90,
     "limitCount": 25,
     "gcount": {
@@ -15,7 +15,7 @@
         "user": 15
     },
     "sticker": {
-        "packname": "Hinata-Md",
-        "author": "By Riy 04"
+        "packname": "Sano-Md",
+        "author": "By Sano san"
     }
 }
