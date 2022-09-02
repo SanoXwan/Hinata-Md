@@ -20,256 +20,273 @@ exports.allMenu = (ucapanWaktu, pushname, mundur, upload, download, ownerName, b
  Hitung Mundur Idul Adha
  ${mundur}
 
+●═════𖡹 ༺༻ 𖡹═════●
  *STATISTICS*
- ▸ Upload : ${upload}
- ▸ Downloads : ${download}
+ 𒍮 Upload : ${upload}
+ 𒍮 Downloads : ${download}
 
 *BOT INFO*
- ▸ Creator : ${ownerName}
- ▸ Bot Name : ${botName}
- ▸ Time : ${jam}
- ▸ Date : ${tanggal}
- ▸ Runtime :
+ 𒍮 Creator : ${ownerName}
+ 𒍮 Bot Name : ${botName}
+ 𒍮 Time : ${jam}
+ 𒍮 Date : ${tanggal}
+ 𒍮 Runtime :
  ${runtime(process.uptime())}
 
  *USER INFO*
- ▸ Name : ${pushname !== undefined ? pushname : 'Kak'}
- ▸ Status : ${isOwner ? 'Owner' : isPremium ? 'Premium' : 'Free'}
- ▸ Limit : ${isOwner ? 'Unlimited' : isPremium ? 'Unlimited' : getLimit(sender, limitCount, limit)}
- ▸ Limit Game : ${isOwner ? '-' : cekGLimit(sender, gcount, glimit)}
- ▸ Balance : $${toCommas(getBalance(sender, balance))}
+ 𒍮 Name : ${pushname !== undefined ? pushname : 'Kak'}
+ 𒍮 Status : ${isOwner ? 'Owner' : isPremium ? 'Premium' : 'Free'}
+ 𒍮 Limit : ${isOwner ? 'Unlimited' : isPremium ? 'Unlimited' : getLimit(sender, limitCount, limit)}
+ 𒍮 Limit Game : ${isOwner ? '-' : cekGLimit(sender, gcount, glimit)}
+ 𒍮 Balance : $${toCommas(getBalance(sender, balance))}
 ${readmore}
+●═════𖡹 ༺༻ 𖡹═════● 
  *MAIN MENU*
- ▸ ${prefix}menu
- ▸ ${prefix}infobot
- ▸ ${prefix}donate
- ▸ ${prefix}dashboard
- ▸ ${prefix}owner
- ▸ ${prefix}grouphinata
- ▸ ${prefix}cekdrive
- ▸ ${prefix}cekbandwidth
- ▸ ${prefix}cekpremium
- ▸ ${prefix}sewabot
- ▸ ${prefix}listpremium
- ▸ ${prefix}listsewa
- ▸ ${prefix}speed
- ▸ ${prefix}script
- ▸ ${prefix}runtime
- ▸ ${prefix}listbahasa
+ 𒍮 ${prefix}menu
+ 𒍮 ${prefix}infobot
+ 𒍮 ${prefix}donate
+ 𒍮 ${prefix}dashboard
+ 𒍮 ${prefix}owner
+ 𒍮 ${prefix}grouphinata
+ 𒍮 ${prefix}cekdrive
+ 𒍮 ${prefix}cekbandwidth
+ 𒍮 ${prefix}cekpremium
+ 𒍮 ${prefix}sewabot
+ 𒍮 ${prefix}listpremium
+ 𒍮 ${prefix}listsewa
+ 𒍮 ${prefix}speed
+ 𒍮 ${prefix}script
+ 𒍮 ${prefix}runtime
+ 𒍮 ${prefix}listbahasa
 
+●═════𖡹 ༺༻ 𖡹═════●
  *CONVERTER/TOOLS*
- ▸ ${prefix}sticker
- ▸ ${prefix}stickerwm
- ▸ ${prefix}smeme
- ▸ ${prefix}toimg
- ▸ ${prefix}tovideo
- ▸ ${prefix}tomp3
- ▸ ${prefix}ttp
- ▸ ${prefix}attp
- ▸ ${prefix}emojimix
- ▸ ${prefix}nulis
- ▸ ${prefix}spamcall
- ▸ ${prefix}say
- ▸ ${prefix}translate
+ 𒍮 ${prefix}sticker
+ 𒍮 ${prefix}stickerwm
+ 𒍮 ${prefix}smeme
+ 𒍮 ${prefix}toimg
+ 𒍮 ${prefix}tovideo
+ 𒍮 ${prefix}tomp3
+ 𒍮 ${prefix}ttp
+ 𒍮 ${prefix}attp
+ 𒍮 ${prefix}emojimix
+ 𒍮 ${prefix}nulis
+ 𒍮 ${prefix}spamcall
+ 𒍮 ${prefix}say
+ 𒍮 ${prefix}translate
 
+●═════𖡹 ༺༻ 𖡹═════●
  *ANONYMOUS CHAT*
- ▸ ${prefix}anonymous
- ▸ ${prefix}start
- ▸ ${prefix}next
- ▸ ${prefix}stop
- ▸ ${prefix}sendprofile
+ 𒍮 ${prefix}anonymous
+ 𒍮 ${prefix}start
+ 𒍮 ${prefix}next
+ 𒍮 ${prefix}stop
+ 𒍮 ${prefix}sendprofile
 
+●═════𖡹 ༺༻ 𖡹═════●
  *STORE MENU*
- ▸ ${prefix}list
- ▸ ${prefix}addlist
- ▸ ${prefix}dellist
- ▸ ${prefix}updatelist
- ▸ ${prefix}jeda
- ▸ ${prefix}tambah
- ▸ ${prefix}kurang
- ▸ ${prefix}kali
- ▸ ${prefix}bagi
- ▸ proses <reply chat>
- ▸ done <reply chat>
- ▸ ${prefix}setproses
- ▸ ${prefix}changeproses
- ▸ ${prefix}delsetproses
- ▸ ${prefix}setdone
- ▸ ${prefix}changedone
- ▸ ${prefix}delsetdone
+ 𒍮 ${prefix}list
+ 𒍮 ${prefix}addlist
+ 𒍮 ${prefix}dellist
+ 𒍮 ${prefix}updatelist
+ 𒍮 ${prefix}jeda
+ 𒍮 ${prefix}tambah
+ 𒍮 ${prefix}kurang
+ 𒍮 ${prefix}kali
+ 𒍮 ${prefix}bagi
+ 𒍮 proses <reply chat>
+ 𒍮 done <reply chat>
+ 𒍮 ${prefix}setproses
+ 𒍮 ${prefix}changeproses
+ 𒍮 ${prefix}delsetproses
+ 𒍮 ${prefix}setdone
+ 𒍮 ${prefix}changedone
+ 𒍮 ${prefix}delsetdone
 
+●═════𖡹 ༺༻ 𖡹═════●
  *DOWNLOAD MENU*
- ▸ ${prefix}play
- ▸ ${prefix}ytmp3
- ▸ ${prefix}ytmp4
- ▸ ${prefix}getmusic
- ▸ ${prefix}getvideo
- ▸ ${prefix}instagram
- ▸ ${prefix}igstory
- ▸ ${prefix}tiktok
- ▸ ${prefix}facebook
- ▸ ${prefix}mediafire
- ▸ ${prefix}telesticker
- ▸ ${prefix}pinterestdl
+ 𒍮 ${prefix}play
+ 𒍮 ${prefix}ytmp3
+ 𒍮 ${prefix}ytmp4
+ 𒍮 ${prefix}getmusic
+ 𒍮 ${prefix}getvideo
+ 𒍮 ${prefix}instagram
+ 𒍮 ${prefix}igstory
+ 𒍮 ${prefix}tiktok
+ 𒍮 ${prefix}facebook
+ 𒍮 ${prefix}mediafire
+ 𒍮 ${prefix}telesticker
+ 𒍮 ${prefix}pinterestdl
 
+●═════𖡹 ༺༻ 𖡹═════●
  *GROUP MENU*
- ▸ ${prefix}afk
- ▸ ${prefix}welcome
- ▸ ${prefix}left
- ▸ ${prefix}setwelcome
- ▸ ${prefix}changewelcome
- ▸ ${prefix}delsetwelcome
- ▸ ${prefix}setleft
- ▸ ${prefix}changeleft
- ▸ ${prefix}delsetleft
- ▸ ${prefix}linkgc
- ▸ ${prefix}setppgc
- ▸ ${prefix}setnamegc
- ▸ ${prefix}setdesc
- ▸ ${prefix}antilink
- ▸ ${prefix}antiwame
- ▸ ${prefix}open
- ▸ ${prefix}close
- ▸ ${prefix}setopen
- ▸ ${prefix}changeopen
- ▸ ${prefix}delsetopen
- ▸ ${prefix}setclose
- ▸ ${prefix}changeclose
- ▸ ${prefix}delsetclose
- ▸ ${prefix}add
- ▸ ${prefix}kick
- ▸ ${prefix}promote
- ▸ ${prefix}demote
- ▸ ${prefix}revoke
- ▸ ${prefix}checksewa
+ 𒍮 ${prefix}afk
+ 𒍮 ${prefix}welcome
+ 𒍮 ${prefix}left
+ 𒍮 ${prefix}setwelcome
+ 𒍮 ${prefix}changewelcome
+ 𒍮 ${prefix}delsetwelcome
+ 𒍮 ${prefix}setleft
+ 𒍮 ${prefix}changeleft
+ 𒍮 ${prefix}delsetleft
+ 𒍮 ${prefix}linkgc
+ 𒍮 ${prefix}setppgc
+ 𒍮 ${prefix}setnamegc
+ 𒍮 ${prefix}setdesc
+ 𒍮 ${prefix}antilink
+ 𒍮 ${prefix}antiwame
+ 𒍮 ${prefix}open
+ 𒍮 ${prefix}close
+ 𒍮 ${prefix}setopen
+ 𒍮 ${prefix}changeopen
+ 𒍮 ${prefix}delsetopen
+ 𒍮 ${prefix}setclose
+ 𒍮 ${prefix}changeclose
+ 𒍮 ${prefix}delsetclose
+ 𒍮 ${prefix}add
+ 𒍮 ${prefix}kick
+ 𒍮 ${prefix}promote
+ 𒍮 ${prefix}demote
+ 𒍮 ${prefix}revoke
+ 𒍮 ${prefix}checksewa
 
+●═════𖡹 ༺༻ 𖡹═════●
  *GAME MENU*
- ▸ ${prefix}tictactoe
- ▸ ${prefix}delttt
- ▸ ${prefix}tebakgambar
- ▸ ${prefix}kuis
- ▸ ${prefix}tebaklagu
- ▸ ${prefix}nyerah
- ▸ ${prefix}casino
- ▸ ${prefix}delcasino
- ▸ ${prefix}akinator
- ▸ ${prefix}cancelakinator
+ 𒍮 ${prefix}tictactoe
+ 𒍮 ${prefix}delttt
+ 𒍮 ${prefix}tebakgambar
+ 𒍮 ${prefix}kuis
+ 𒍮 ${prefix}tebaklagu
+ 𒍮 ${prefix}nyerah
+ 𒍮 ${prefix}casino
+ 𒍮 ${prefix}delcasino
+ 𒍮 ${prefix}akinator
+ 𒍮 ${prefix}cancelakinator
 
+●═════𖡹 ༺༻ 𖡹═════●
  *KERANG MENU*
- ▸ ${prefix}apakah
- ▸ ${prefix}bisakah
- ▸ ${prefix}kapankah
- ▸ ${prefix}bagaimanakah
- ▸ ${prefix}rate
- ▸ ${prefix}gantengcek
- ▸ ${prefix}cantikcek
- ▸ ${prefix}sangecek
- ▸ ${prefix}gaycek
- ▸ ${prefix}lesbicek
- ▸ ${prefix}cekbapak
+ 𒍮 ${prefix}apakah
+ 𒍮 ${prefix}bisakah
+ 𒍮 ${prefix}kapankah
+ 𒍮 ${prefix}bagaimanakah
+ 𒍮 ${prefix}rate
+ 𒍮 ${prefix}gantengcek
+ 𒍮 ${prefix}cantikcek
+ 𒍮 ${prefix}sangecek
+ 𒍮 ${prefix}gaycek
+ 𒍮 ${prefix}lesbicek
+ 𒍮 ${prefix}cekbapak
 
+●═════𖡹 ༺༻ 𖡹═════●
  *SEARCH MENU*
- ▸ ${prefix}lirik
- ▸ ${prefix}grupwa
- ▸ ${prefix}pinterest
- ▸ ${prefix}ytsearch
- ▸ ${prefix}whatmusic
- ▸ ${prefix}igstalk
- ▸ ${prefix}searchbyimage
+ 𒍮 ${prefix}lirik
+ 𒍮 ${prefix}grupwa
+ 𒍮 ${prefix}pinterest
+ 𒍮 ${prefix}ytsearch
+ 𒍮 ${prefix}whatmusic
+ 𒍮 ${prefix}igstalk
+ 𒍮 ${prefix}searchbyimage
 
+●═════𖡹 ༺༻ 𖡹═════●
  *RANDOM MENU*
- ▸ ${prefix}quotes
- ▸ ${prefix}cecan
- ▸ ${prefix}cogan
- ▸ ${prefix}waifu
- ▸ ${prefix}meme
- ▸ ${prefix}darkjoke
- ▸ ${prefix}couple
+ 𒍮 ${prefix}quotes
+ 𒍮 ${prefix}cecan
+ 𒍮 ${prefix}cogan
+ 𒍮 ${prefix}waifu
+ 𒍮 ${prefix}meme
+ 𒍮 ${prefix}darkjoke
+ 𒍮 ${prefix}couple
 
+●═════𖡹 ༺༻ 𖡹═════●
  *ASUPAN MENU*
- ▸ ${prefix}asupan
- ▸ ${prefix}bocil
- ▸ ${prefix}geayubi
- ▸ ${prefix}hijaber
- ▸ ${prefix}rikagusriani
- ▸ ${prefix}santuy
- ▸ ${prefix}ukhty
+ 𒍮 ${prefix}asupan
+ 𒍮 ${prefix}bocil
+ 𒍮 ${prefix}geayubi
+ 𒍮 ${prefix}hijaber
+ 𒍮 ${prefix}rikagusriani
+ 𒍮 ${prefix}santuy
+ 𒍮 ${prefix}ukhty
  
+●═════𖡹 ༺༻ 𖡹═════●
  *TEXTPRO MENU*
- ▸ ${prefix}pencil
- ▸ ${prefix}glitch
- ▸ ${prefix}glitch2
- ▸ ${prefix}glitchtiktok
- ▸ ${prefix}pornhub
- ▸ ${prefix}blackpink
- ▸ ${prefix}berry
- ▸ ${prefix}neon
- ▸ ${prefix}3d-neon-light
- ▸ ${prefix}3d-christmas
- ▸ ${prefix}3d-boxtext
- ▸ ${prefix}3d-orange-juice
- ▸ ${prefix}logo-bear
- ▸ ${prefix}logo-ninja
- ▸ ${prefix}thunder
- ▸ ${prefix}video-game-classic
- ▸ ${prefix}marvel-studios
- ▸ ${prefix}green-horror
- ▸ ${prefix}magma
- ▸ ${prefix}chocolate-cake
- ▸ ${prefix}strawberry
+ 𒍮 ${prefix}pencil
+ 𒍮 ${prefix}glitch
+ 𒍮 ${prefix}glitch2
+ 𒍮 ${prefix}glitchtiktok
+ 𒍮 ${prefix}pornhub
+ 𒍮 ${prefix}blackpink
+ 𒍮 ${prefix}berry
+ 𒍮 ${prefix}neon
+ 𒍮 ${prefix}3d-neon-light
+ 𒍮 ${prefix}3d-christmas
+ 𒍮 ${prefix}3d-boxtext
+ 𒍮 ${prefix}3d-orange-juice
+ 𒍮 ${prefix}logo-bear
+ 𒍮 ${prefix}logo-ninja
+ 𒍮 ${prefix}thunder
+ 𒍮 ${prefix}video-game-classic
+ 𒍮 ${prefix}marvel-studios
+ 𒍮 ${prefix}green-horror
+ 𒍮 ${prefix}magma
+ 𒍮 ${prefix}chocolate-cake
+ 𒍮 ${prefix}strawberry
 
+●═════𖡹 ༺༻ 𖡹═════●
  *PHOTOOXY MENU*
- ▸ ${prefix}flaming
- ▸ ${prefix}shadow-sky
- ▸ ${prefix}metallic
- ▸ ${prefix}logo-naruto
- ▸ ${prefix}logo-pubg
- ▸ ${prefix}under-grass
- ▸ ${prefix}harry-potter
- ▸ ${prefix}flower-typography
- ▸ ${prefix}picture-of-love
- ▸ ${prefix}coffee-cup
- ▸ ${prefix}butterfly
- ▸ ${prefix}night-sky
- ▸ ${prefix}carved-wood
- ▸ ${prefix}illuminated-metallic
- ▸ ${prefix}sweet-candy
+ 𒍮 ${prefix}flaming
+ 𒍮 ${prefix}shadow-sky
+ 𒍮 ${prefix}metallic
+ 𒍮 ${prefix}logo-naruto
+ 𒍮 ${prefix}logo-pubg
+ 𒍮 ${prefix}under-grass
+ 𒍮 ${prefix}harry-potter
+ 𒍮 ${prefix}flower-typography
+ 𒍮 ${prefix}picture-of-love
+ 𒍮 ${prefix}coffee-cup
+ 𒍮 ${prefix}butterfly
+ 𒍮 ${prefix}night-sky
+ 𒍮 ${prefix}carved-wood
+ 𒍮 ${prefix}illuminated-metallic
+ 𒍮 ${prefix}sweet-candy
 
+●═════𖡹 ༺༻ 𖡹═════●
  *PAYMENT & BANK*
- ▸ ${prefix}balance
- ▸ ${prefix}buylimit
- ▸ ${prefix}buyglimit
- ▸ ${prefix}transfer
- ▸ ${prefix}limit
- ▸ ${prefix}balance
+ 𒍮 ${prefix}balance
+ 𒍮 ${prefix}buylimit
+ 𒍮 ${prefix}buyglimit
+ 𒍮 ${prefix}transfer
+ 𒍮 ${prefix}limit
+ 𒍮 ${prefix}balance
 
+●═════𖡹 ༺༻ 𖡹═════●
  *BAILEYS*
- ▸ ${prefix}fitnah
- ▸ ${prefix}getquoted
- ▸ ${prefix}tagall
- ▸ ${prefix}hidetag
- ▸ ${prefix}fakehidetag
- ▸ ${prefix}react
- ▸ ${prefix}setcmd
- ▸ ${prefix}delcmd
+ 𒍮 ${prefix}fitnah
+ 𒍮 ${prefix}getquoted
+ 𒍮 ${prefix}tagall
+ 𒍮 ${prefix}hidetag
+ 𒍮 ${prefix}fakehidetag
+ 𒍮 ${prefix}react
+ 𒍮 ${prefix}setcmd
+ 𒍮 ${prefix}delcmd
 
+●═════𖡹 ༺༻ 𖡹═════●
  *OWNER MENU*
- ▸ > evalcode
- ▸ x evalcode-2
- ▸ $ executor
- ▸ ${prefix}exif
- ▸ ${prefix}join
- ▸ ${prefix}left
- ▸ ${prefix}self
- ▸ ${prefix}public
- ▸ ${prefix}setprefix
- ▸ ${prefix}setppbot
- ▸ ${prefix}broadcast
- ▸ ${prefix}bcsewa
- ▸ ${prefix}addpremium
- ▸ ${prefix}delpremium
- ▸ ${prefix}addsewa
- ▸ ${prefix}delsewa`
+ 𒍮 > evalcode
+ 𒍮 x evalcode-2
+ 𒍮 $ executor
+ 𒍮 ${prefix}exif
+ 𒍮 ${prefix}join
+ 𒍮 ${prefix}left
+ 𒍮 ${prefix}self
+ 𒍮 ${prefix}public
+ 𒍮 ${prefix}setprefix
+ 𒍮 ${prefix}setppbot
+ 𒍮 ${prefix}broadcast
+ 𒍮 ${prefix}bcsewa
+ 𒍮 ${prefix}addpremium
+ 𒍮 ${prefix}delpremium
+ 𒍮 ${prefix}addsewa
+ 𒍮 ${prefix}delsewa`
 }
 
 exports.donate = (pushname, ownerNumber) => {
@@ -277,11 +294,11 @@ exports.donate = (pushname, ownerNumber) => {
 
 Hai ${pushname}👋
 Kalian bisa mendukung saya agar bot ini tetap up to date dengan:
-🏧 081575886399 (Dana/GoPay)
+🏧 082239202895 (Dana/GoPay)
 
 Berapapun donasi kalian akan sangat berarti 👍
 
-Arigatou!
+Assalamualaikum!
 
 Contact person Owner:
 wa.me/${ownerNumber.split("@")[0]} (Owner)`
