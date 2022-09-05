@@ -1,13 +1,13 @@
 {
-    "ownerNumber": "6282239202895@s.whatsapp.net",
-    "ownerName": "Sano San",
-    "botName": "Sano-Md",
-    "footer": "© By Sano san",
+    "ownerNumber": "6285669833748@s.whatsapp.net",
+    "ownerName": "Adam Ofc",
+    "botName": "Adambotz",
+    "footer": "© By Adambotz",
     "sessionName": "session",
     "pathimg": "./media/hinata.jpg",
     "lolkey": "04d8c4b18b91e43ff15f7999",
     "youtube": "https://youtube.com/c/Sano",
-    "instagram": "https://instagram.com/kimhcibotz",
+    "instagram": "https://instagram.com/Adambotz",
     "gamewaktu": 90,
     "limitCount": 25,
     "gcount": {
@@ -15,7 +15,7 @@
         "user": 15
     },
     "sticker": {
-        "packname": "Sano-Md",
-        "author": "By Sano san"
+        "packname": "Adambotz",
+        "author": "By Adam",
     }
 }
