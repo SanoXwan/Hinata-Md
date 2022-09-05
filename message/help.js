@@ -294,7 +294,7 @@ exports.donate = (pushname, ownerNumber) => {
 
 Hai ${pushname}👋
 Kalian bisa mendukung saya agar bot ini tetap up to date dengan:
-🏧 082239202895 (Dana/GoPay)
+🏧 085669833748 (Dana/GoPay)
 
 Berapapun donasi kalian akan sangat berarti 👍
 
